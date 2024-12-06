@@ -9,15 +9,24 @@
       rel="stylesheet"
       type="text/css"
     />
-    <script src="https://kit.fontawesome.com/28c3906edd.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/28c3906edd.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section
@@ -39,7 +48,9 @@
       </div>
     </section>
     <section class="container mx-auto flex flex-col">
-        <h1 id="faq" class="text-4xl flex items-center">Important FAQ  <img class="h-16" src="img/question-mark.jpg" alt=""> </h1>
+      <h1 id="faq" class="text-4xl flex items-center">
+        Important FAQ <img class="h-16" src="img/question-mark.jpg" alt="" />
+      </h1>
       <div class="collapse collapse-arrow bg-base-200 mb-8 mt-7">
         <input
           placeholder="none"
@@ -66,27 +77,43 @@
         </div>
         <div class="collapse-content">
           <p>
-            To select an element by ID, use `document.getElementById`. To select elements by class, use `document.getElementsByClassName`. To select elements by tag name, use `document.getElementsByTagName`. For more flexible selection, use `document.querySelector` to select the first matching element or `document.querySelectorAll` to select all matching elements.
+            To select an element by ID, use `document.getElementById`. To select
+            elements by class, use `document.getElementsByClassName`. To select
+            elements by tag name, use `document.getElementsByTagName`. For more
+            flexible selection, use `document.querySelector` to select the first
+            matching element or `document.querySelectorAll` to select all
+            matching elements.
           </p>
         </div>
       </div>
       <div class="collapse collapse-arrow bg-base-200 mb-8">
         <input placeholder="none" type="radio" name="my-accordion-2" />
         <div class="collapse-title text-xl font-medium">
-          What is event delegation in the context of the DOM, and why is it useful?
+          What is event delegation in the context of the DOM, and why is it
+          useful?
         </div>
         <div class="collapse-content">
           <p>
-            Event delegation is a technique in the DOM where a parent element handles events for its child elements, even if those children are added dynamically. This works because events in the DOM propagate through three phases: capturing, target, and bubbling. By listening for events on a parent element during the bubbling phase, you can manage events for current and future child elements.
+            Event delegation is a technique in the DOM where a parent element
+            handles events for its child elements, even if those children are
+            added dynamically. This works because events in the DOM propagate
+            through three phases: capturing, target, and bubbling. By listening
+            for events on a parent element during the bubbling phase, you can
+            manage events for current and future child elements.
           </p>
         </div>
       </div>
       <div class="collapse collapse-arrow bg-base-200 mb-8">
         <input placeholder="none" type="radio" name="my-accordion-2" />
-        <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+        <div class="collapse-title text-xl font-medium">
+          How do you manipulate an element's attributes and styles using the
+          DOM?
+        </div>
         <div class="collapse-content">
           <p>
-            To manipulate attributes, use methods like setAttribute, getAttribute, and removeAttribute; for styles, modify the style property directly or use classList to manage CSS classes.
+            To manipulate attributes, use methods like setAttribute,
+            getAttribute, and removeAttribute; for styles, modify the style
+            property directly or use classList to manage CSS classes.
           </p>
         </div>
       </div>

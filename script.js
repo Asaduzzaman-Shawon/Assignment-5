@@ -22,12 +22,12 @@ document.getElementById('donate-flood').addEventListener('click', function () {
     if (donateBalance > mainBalance) {
         // alert("You do not have sufficienct balance")
         showModal4()
-        
+
     }
-    else if(donateBalance < 0){
+    else if (donateBalance < 0) {
         // alert('Ammmount must be a positive number')
         showModal2();
-        
+
     }
     else {
         if (isNaN(donateBalance)) {
@@ -60,12 +60,12 @@ document.getElementById('donate-feni').addEventListener('click', function () {
     if (donateBalance > mainBalance) {
         // alert("You do not have sufficienct balance")
         showModal4()
-        
+
     }
-    else if(donateBalance < 0){
+    else if (donateBalance < 0) {
         // alert('Ammmount must be a positive number')
         showModal2();
-        
+
     }
     else {
         if (isNaN(donateBalance)) {
@@ -98,12 +98,12 @@ document.getElementById('donate-quota').addEventListener('click', function () {
     if (donateBalance > mainBalance) {
         // alert("You do not have sufficienct balance")
         showModal4()
-        
+
     }
-    else if(donateBalance < 0){
+    else if (donateBalance < 0) {
         // alert('Ammmount must be a positive number')
         showModal2();
-        
+
     }
     else {
         if (isNaN(donateBalance)) {
@@ -133,18 +133,18 @@ document.getElementById('donate-quota').addEventListener('click', function () {
 function showModal() {
     const modal = document.getElementById('my_modal_1');
     modal.showModal();
-  }
+}
 
- function showModal2() {
+function showModal2() {
     const modal = document.getElementById('my_modal_12');
     modal.showModal();
- }
+}
 
- function showModal3(){
+function showModal3() {
     const modal = document.getElementById('my_modal_13')
     modal.showModal()
- }
- function showModal4(){
+}
+function showModal4() {
     const modal = document.getElementById('my_modal_14')
     modal.showModal()
- }
+}
