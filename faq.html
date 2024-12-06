@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section
+      class="bg-[#f9f7f3] mb-7 w-[100%] py-12 h-auto sticky top-0 left-0 p-4 z-10"
+    >
+      <div class="flex justify-between container mx-auto gap-11 items-center">
+        <div>
+          <button id="home" class="btn bg-[#b4f461] border-none">Home</button>
+        </div>
+        <div class="flex justify-center items-center gap-3">
+          <img src="img/logo.png" alt="" />
+          <h1 class="sm:text-2xl font-bold">Donate Bangladesh</h1>
+        </div>
+        <div class="flex justify-center items-center gap-3">
+          <img src="img/coin.png" alt="" />
+          <h1 id="main-balance" class="sm:text-2xl font-bold">5500</h1>
+          <h1 class="sm:text-2xl font-bold">BDT</h1>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto flex flex-col">
+      <div class="collapse collapse-arrow bg-base-200 mb-8">
+        <input
+          placeholder="none"
+          type="radio"
+          name="my-accordion-2"
+          checked="checked"
+        />
+        <div class="collapse-title text-xl font-medium">
+          What is DOM (Document object Model)?
+        </div>
+        <div class="collapse-content">
+          <p>
+            The Document Object Model (DOM) is a programming interface that
+            represents an HTML or XML document as a structured tree. It allows
+            programs (like JavaScript) to interact with, modify, and manipulate
+            the structure, content, and style of a web page dynamically.
+          </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200 mb-8">
+        <input placeholder="none" type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">
+          What is Tailwind CSS?
+        </div>
+        <div class="collapse-content">
+          <p>
+            Tailwind CSS is a utility-first CSS framework that enables
+            developers to build custom designs quickly and efficiently by using
+            predefined utility classes directly in HTML.
+          </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200 mb-8">
+        <input placeholder="none" type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">
+          What is JavaScript?
+        </div>
+        <div class="collapse-content">
+          <p>
+            JavaScript is a programming language primarily used to create
+            dynamic and interactive features on websites. It is one of the core
+            technologies of the web, alongside HTML and CSS.
+          </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200 mb-8">
+        <input placeholder="none" type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">What is React JS?</div>
+        <div class="collapse-content">
+          <p>
+            React.js is a JavaScript library developed by Facebook for building
+            user interfaces (UI), especially single-page applications. It
+            focuses on efficiently rendering and updating components to create
+            dynamic and interactive web applications.
+          </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200 mb-8">
+        <input placeholder="none" type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">What is Next JS?</div>
+        <div class="collapse-content">
+          <p>
+            Next.js is a React framework that enables the development of
+            server-side rendered (SSR) web applications, static websites, and
+            more. It enhances React by adding extra features, like automatic
+            server-side rendering, routing, and optimization tools
+          </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200 mb-8">
+        <input placeholder="none" type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">What is Mongo DB?</div>
+        <div class="collapse-content">
+          <p>
+            MongoDB is a NoSQL database that stores data in a flexible,
+            document-oriented format instead of using tables and rows like
+            traditional relational databases. It uses BSON (Binary JSON) format
+            to store data, allowing for rich, dynamic structures such as arrays.
+          </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200 mb-8">
+        <input placeholder="none" type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">What is NoSQL?</div>
+        <div class="collapse-content">
+          <p>
+            NoSQL stands for "Not Only SQL" and refers to a category of database
+            management systems that do not use the traditional relational
+            database model based on tables and rows. Instead, NoSQL databases
+            store data in a variety of formats.
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="faq.js"></script>
+  </body>
+</html>

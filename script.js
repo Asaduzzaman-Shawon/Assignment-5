@@ -1,3 +1,8 @@
+document.getElementById('blog').addEventListener('click', function () {
+    window.location.href = 'faq.html'
+})
+
+
 document.getElementById('donate-btn').addEventListener('click', function () {
     const a = show('donate-section')
 })
@@ -87,7 +92,7 @@ document.getElementById('donate-quota').addEventListener('click', function () {
             const historyAdd = document.createElement('div')
             historyAdd.innerHTML = `
             <div class="w-[80%] mx-auto mt-6 p-3 border-gray-700 border-[1px] rounded-lg">
-                        <p class="font-bold text-xl mb-3">${donateBalance} Taka is Donated for  the Quota Movement</p>
+                        <p class="font-bold text-xl mb-3">${donateBalance} Taka is Donated for  the Quota Movement in Bangladesh</p>
                         <p>${dateAndTime}</p>
                     </div>
             `
@@ -96,5 +101,3 @@ document.getElementById('donate-quota').addEventListener('click', function () {
         }
     }
 })
-
-
