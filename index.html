@@ -13,7 +13,7 @@
         <div class="flex justify-between container mx-auto gap-11 items-center">
             <div><button class="btn bg-[#b4f461] border-none">Blog</button></div>
             <div class="flex justify-center items-center gap-3"><img src="img/logo.png" alt=""> <h1 class="sm:text-2xl font-bold">Donate Bangladesh</h1></div>
-            <div class="flex justify-center items-center gap-3"><img src="img/coin.png" alt=""><h1 class="sm:text-2xl font-bold">5500</h1><h1 class="sm:text-2xl font-bold">BDT</h1></div>
+            <div class="flex justify-center items-center gap-3"><img src="img/coin.png" alt=""><h1 id="main-balance" class="sm:text-2xl font-bold">5500</h1><h1 class="sm:text-2xl font-bold">BDT</h1></div>
         </div>
         <div class="mt-10 text-center ">
             <button id="donate-btn" class="mx-3 btn bg-[#b4f461] border-none px-12">Donation</button>
@@ -23,19 +23,19 @@
    <!-- Navbar Section End -->
   
    <!-- Donate now Section start -->
-            <section id="donate-section" class="hidden">
+            <section id="donate-section" class="">
                 <main class="container mx-auto flex border-2 rounded-xl mb-9 mt-12">
                     <div class="rounded-lg sm:flex  w-[100%] h-auto items-center justify-between bg-base-200 p-4">
                         <div class="w-full">
                             <img  src="img/noakhali.png" alt="">
                         </div>
                         <div class="sm:ml-32">
-                            <div class="rounded-xl p-2 flex gap-3 mb-3 font-bold text-xl bg-white w-36 items-center"><img src="img/coin.png" alt=""><h1>0</h1><h1>BDT</h1></div>
+                            <div class="rounded-xl p-2 flex gap-3 mb-3 font-bold text-xl bg-white w-36 items-center"><img src="img/coin.png" alt=""><h1 id="flood">0</h1><h1>BDT</h1></div>
                             <h1 class="mb-3 text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
                             <p class="text-[18px] mb-3"> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
                 
-                            <input type="text" placeholder="Write Donation Amount" class="mb-3 input input-bordered w-full max-w-xs" /> <br>
-                            <button class="btn btn-primary w-80 bg-[#b4f461] text-black font-bold border-none">Donate Now</button>
+                            <input autocomplete="off" id="flood-ammount" type="text" placeholder="Write Donation Amount" class="mb-3 input input-bordered w-full max-w-xs" /> <br>
+                            <button id="donate-flood" class="btn btn-primary w-80 bg-[#b4f461] text-black font-bold border-none">Donate Now</button>
                         </div>
                     </div>
                             </main>
@@ -49,7 +49,7 @@
                             <h1 class="mb-3 text-2xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
                             <p class="text-[18px] mb-3"> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
                 
-                            <input type="text" placeholder="Write Donation Amount" class="mb-3 input input-bordered w-full max-w-xs" /> <br>
+                            <input autocomplete="off" type="text" placeholder="Write Donation Amount" class="mb-3 input input-bordered w-full max-w-xs" /> <br>
                             <button class="btn btn-primary w-80 bg-[#b4f461] text-black font-bold border-none">Donate Now</button>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                             <h1 class="mb-3 text-2xl font-bold">Aid for Injured in the Quota Movement</h1>
                             <p class="text-[18px] mb-3"> The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
                 
-                            <input type="text" placeholder="Write Donation Amount" class="mb-3 input input-bordered w-full max-w-xs" /> <br>
+                            <input autocomplete="off" type="text" placeholder="Write Donation Amount" class="mb-3 input input-bordered w-full max-w-xs" /> <br>
                             <button class="btn btn-primary w-80 bg-[#b4f461] text-black font-bold border-none">Donate Now</button>
                         </div>
                     </div>
@@ -73,12 +73,8 @@
     <!-- Donate now Section End -->
 
     <!-- History Section Start -->
-            <section id="history-section" class=" container mx-auto flex flex-col   rounded-xl mb-9 mt-12 ">
+            <section id="history-section" class="hidden container mx-auto flex flex-col   rounded-xl mb-9 mt-12 ">
                 <h1 class="text-2xl font-bold mx-auto">Your Transection History</h1>
-                <div class="w-[80%] mx-auto mt-6 p-3 border-gray-700 border-[1px] rounded-lg">
-                    <p class="font-bold text-xl mb-3">96500 Taka is Donated for famine-2024 at Feni, Bangladesh</p>
-                    <p>Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
-                </div>
             </section>
     <!-- History Section End -->
 
