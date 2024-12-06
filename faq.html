@@ -39,7 +39,7 @@
       </div>
     </section>
     <section class="container mx-auto flex flex-col">
-        <h1 id="faq" class="text-4xl ">Important FAQ ?</h1>
+        <h1 id="faq" class="text-4xl flex items-center">Important FAQ  <img class="h-16" src="img/question-mark.jpg" alt=""> </h1>
       <div class="collapse collapse-arrow bg-base-200 mb-8 mt-7">
         <input
           placeholder="none"
@@ -62,38 +62,31 @@
       <div class="collapse collapse-arrow bg-base-200 mb-8">
         <input placeholder="none" type="radio" name="my-accordion-2" />
         <div class="collapse-title text-xl font-medium">
-          What is Tailwind CSS?
+          How do you select an element from the DOM?
         </div>
         <div class="collapse-content">
           <p>
-            Tailwind CSS is a utility-first CSS framework that enables
-            developers to build custom designs quickly and efficiently by using
-            predefined utility classes directly in HTML.
+            To select an element by ID, use `document.getElementById`. To select elements by class, use `document.getElementsByClassName`. To select elements by tag name, use `document.getElementsByTagName`. For more flexible selection, use `document.querySelector` to select the first matching element or `document.querySelectorAll` to select all matching elements.
           </p>
         </div>
       </div>
       <div class="collapse collapse-arrow bg-base-200 mb-8">
         <input placeholder="none" type="radio" name="my-accordion-2" />
         <div class="collapse-title text-xl font-medium">
-          What is JavaScript?
+          What is event delegation in the context of the DOM, and why is it useful?
         </div>
         <div class="collapse-content">
           <p>
-            JavaScript is a programming language primarily used to create
-            dynamic and interactive features on websites. It is one of the core
-            technologies of the web, alongside HTML and CSS.
+            Event delegation is a technique in the DOM where a parent element handles events for its child elements, even if those children are added dynamically. This works because events in the DOM propagate through three phases: capturing, target, and bubbling. By listening for events on a parent element during the bubbling phase, you can manage events for current and future child elements.
           </p>
         </div>
       </div>
       <div class="collapse collapse-arrow bg-base-200 mb-8">
         <input placeholder="none" type="radio" name="my-accordion-2" />
-        <div class="collapse-title text-xl font-medium">What is React JS?</div>
+        <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
         <div class="collapse-content">
           <p>
-            React.js is a JavaScript library developed by Facebook for building
-            user interfaces (UI), especially single-page applications. It
-            focuses on efficiently rendering and updating components to create
-            dynamic and interactive web applications.
+            To manipulate attributes, use methods like setAttribute, getAttribute, and removeAttribute; for styles, modify the style property directly or use classList to manage CSS classes.
           </p>
         </div>
       </div>
