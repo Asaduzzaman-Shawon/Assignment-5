@@ -15,3 +15,4 @@ function getElementByInput(id){
     const inputBalanceNumber = parseFloat(inputBalance);
     return inputBalanceNumber;
 }
+
